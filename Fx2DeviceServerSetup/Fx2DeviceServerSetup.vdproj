@@ -21,14 +21,14 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_403B3F997DBD41DA9457FDDEF23FD6B0"
-        "OwnerKey" = "8:_UNDEFINED"
+        "MsmKey" = "8:_23273ECDD194A7CAF9A99CDECFBFED08"
+        "OwnerKey" = "8:_403B3F997DBD41DA9457FDDEF23FD6B0"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_487611A6CF580D470029503D5E1EA810"
-        "OwnerKey" = "8:_403B3F997DBD41DA9457FDDEF23FD6B0"
+        "MsmKey" = "8:_403B3F997DBD41DA9457FDDEF23FD6B0"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -39,32 +39,32 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_95A20A884241928E4C87B4F109CF47D6"
+        "MsmKey" = "8:_B05D6FDCF3D84E013642FC8CF093D173"
         "OwnerKey" = "8:_403B3F997DBD41DA9457FDDEF23FD6B0"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_403B3F997DBD41DA9457FDDEF23FD6B0"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_23273ECDD194A7CAF9A99CDECFBFED08"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_B05D6FDCF3D84E013642FC8CF093D173"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_86EEE5E31D553E83DF486EF320C381B5"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_403B3F997DBD41DA9457FDDEF23FD6B0"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_487611A6CF580D470029503D5E1EA810"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_95A20A884241928E4C87B4F109CF47D6"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -85,6 +85,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -101,6 +109,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -150,14 +174,14 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_487611A6CF580D470029503D5E1EA810"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_23273ECDD194A7CAF9A99CDECFBFED08"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:LibUsbDotNet, Version=2.2.8.104, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_487611A6CF580D470029503D5E1EA810"
+                    "_23273ECDD194A7CAF9A99CDECFBFED08"
                     {
                     "Name" = "8:LibUsbDotNet.dll"
                     "Attributes" = "3:512"
@@ -212,14 +236,14 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_95A20A884241928E4C87B4F109CF47D6"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B05D6FDCF3D84E013642FC8CF093D173"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:CyUSB, Version=3.4.7.0, Culture=neutral, PublicKeyToken=01f1d2b6c851ae92, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_95A20A884241928E4C87B4F109CF47D6"
+                    "_B05D6FDCF3D84E013642FC8CF093D173"
                     {
                     "Name" = "8:CyUSB.dll"
                     "Attributes" = "3:512"
@@ -310,15 +334,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:FX2 Device Server"
-        "ProductCode" = "8:{412926B0-66E9-4567-BF86-67EFA79505ED}"
-        "PackageCode" = "8:{BCB81B86-71C8-412F-B169-8CCCE54CF15E}"
+        "ProductCode" = "8:{FF115582-3459-4B2B-A674-337F6329B3B3}"
+        "PackageCode" = "8:{A14955BA-2555-425F-85A1-21B1153236C2}"
         "UpgradeCode" = "8:{F9CB2944-0A77-4B0F-9DF5-6C78E528E23B}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.0"
+        "ProductVersion" = "8:1.0.1"
         "Manufacturer" = "8:Rapidnack"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"

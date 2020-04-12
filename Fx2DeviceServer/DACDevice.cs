@@ -68,8 +68,8 @@ namespace Fx2DeviceServer
                                 maxPacketSize = MonoUsbApi.GetMaxPacketSize(USBProfile.ProfileHandle, 0x02);
                             }
                             byte[] inData = new byte[64 * 1024];
-                            byte[] outData = new byte[maxPacketSize];
-                            int outDataPos = 0;
+                            byte[] outData = new byte[maxPacketSize - 16]; // Some PCs cannot send 1024 bytes
+							int outDataPos = 0;
 
                             while (!ct.IsCancellationRequested)
                             {
