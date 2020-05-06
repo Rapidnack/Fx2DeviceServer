@@ -15,9 +15,13 @@ namespace Fx2DeviceServer
             ADC = 2,
         }
 
+		public enum EVendorRequests
+		{
+			DeviceType = 0xc0,
+			DeviceParam = 0xc1,
+		}
+
         protected const int TIMEOUT = 3000;
-        public const byte VendorDeviceType = 0xc0;
-        public const byte VendorDeviceParam = 0xc1;
 
         protected EDeviceType DeviceType { get; private set; } = EDeviceType.Unknown;
         protected CancellationTokenSource Cts { get; set; } = new CancellationTokenSource();

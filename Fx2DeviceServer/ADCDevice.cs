@@ -16,7 +16,7 @@ namespace Fx2DeviceServer
         public ADCDevice(CyUSBDevice usbDevice, MonoUsbProfile usbProfile)
             : base(usbDevice, usbProfile, EDeviceType.ADC)
         {
-            byte[] response = ReceiveVendorResponse(VendorDeviceParam, 2);
+            byte[] response = ReceiveVendorResponse((byte)EVendorRequests.DeviceParam, 2);
             dataPortNo = (ushort)(response[0] + (response[1] << 8));
 
             Console.WriteLine($"DeviceAttached: {this}");
