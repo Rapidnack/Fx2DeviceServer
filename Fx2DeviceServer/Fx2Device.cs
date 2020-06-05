@@ -24,7 +24,7 @@ namespace Fx2DeviceServer
         protected const int TIMEOUT = 3000;
 
         protected EDeviceType DeviceType { get; private set; } = EDeviceType.Unknown;
-        protected CancellationTokenSource Cts { get; set; } = new CancellationTokenSource();
+        protected CancellationTokenSource Cts { get; } = new CancellationTokenSource();
         protected MonoUsbDeviceHandle MonoDeviceHandle { get; private set; } = null;
 
         public CyUSBDevice USBDevice { get; private set; } = null;

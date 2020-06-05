@@ -26,7 +26,6 @@ namespace Fx2DeviceServer
                 endpoint2 = USBDevice.EndPointOf(0x82) as CyBulkEndPoint;
             }
 
-            Cts = new CancellationTokenSource();
             var ct = Cts.Token;
             Task.Run(() =>
             {
